@@ -1,0 +1,23 @@
+<h1>My profile</h1>
+
+<ul>
+  <li><%= link_to "Change my password", change_password_path %></li>
+  <li><%= link_to 'Log Out', logout_path %></li>
+</ul>
+
+<table>
+  <tbody>
+    <tr>
+      <th>E-mail</th>
+      <td><%= @current_user.email %></td>
+    </tr>
+    <tr>
+      <th>Auth0 ID</th>
+      <td><%= @current_user.auth0_id %></td>
+    </tr>
+    <tr>
+      <th>Last login</th>
+      <td><%= @current_user.last_sign_in_at %></td>
+    </tr>
+  </tbody>
+</table>

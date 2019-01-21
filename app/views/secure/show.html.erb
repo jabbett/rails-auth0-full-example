@@ -1,0 +1,7 @@
+<h1>Welcome, <%= @current_user.email %></h1>
+<p>This page, like all pages without an explicit exception, is not accessible unless you are authenticated.</p>
+
+<ul>
+  <li><%= link_to 'View my profile', user_path %></li>
+  <li><%= link_to 'Log Out', logout_path %></li>
+</ul>
