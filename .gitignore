@@ -28,3 +28,6 @@
 
 # Ignore .env
 .env
+
+# Ignore simplecov code coverage output
+coverage
