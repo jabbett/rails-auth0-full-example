@@ -18,7 +18,7 @@ gem 'uglifier', '>= 1.3.0'
 gem 'bootsnap', '>= 1.1.0', require: false
 
 # OmniAuth is a flexible authentication system utilizing Rack middleware. https://omniauth.io
-gem 'omniauth', '~> 1.6.1'
+gem 'omniauth', '~> 1.9.2'
 # OmniAuth strategy for the Auth0 platform. https://github.com/auth0/omniauth-auth0
 gem 'omniauth-auth0', '~> 2.0.0'
 # Easily include static pages in your Rails app. http://thoughtbot.github.io/high_voltage
